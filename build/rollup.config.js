@@ -36,7 +36,7 @@ function baseConfig() {
         globals: {
           vue: 'Vue',
           'vue-class-component': 'VueClassComponent',
-          'vue-property-decorator': 'vue-property-decorator',
+          'vue-property-decorator': 'VuePropertyDecorator',
         },
       }),
       outputConfig('.esm', 'esm'),
